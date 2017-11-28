@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "deps": "elm-install",
+    "test": "elm-ordeal test/PgTest.elm --outputDir=dist"
+  },
+  "devDependencies": {
+    "elm": "0.18.0",
+    "elm-github-install": "1.1.0",
+    "elm-ordeal": "0.0.5",
+    "pg": "7.2.0"
+  }
+}
